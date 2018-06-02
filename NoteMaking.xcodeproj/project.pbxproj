@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B554313B20C1595D0002A805 /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B554313A20C1595D0002A805 /* Notes.swift */; };
+		B5A4032B20C12B5500AF3DB1 /* touchInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A4032A20C12B5500AF3DB1 /* touchInterface.swift */; };
+		B5AD7DAC20C04BC2006A181A /* changeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD7DAB20C04BC2006A181A /* changeView.swift */; };
 		B5DB3EBC20BFC96D00BF13F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DB3EBB20BFC96D00BF13F9 /* AppDelegate.swift */; };
-		B5DB3EBE20BFC96E00BF13F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DB3EBD20BFC96E00BF13F9 /* ViewController.swift */; };
+		B5DB3EBE20BFC96E00BF13F9 /* NoteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DB3EBD20BFC96E00BF13F9 /* NoteVC.swift */; };
 		B5DB3EC120BFC96E00BF13F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5DB3EBF20BFC96E00BF13F9 /* Main.storyboard */; };
 		B5DB3EC420BFC96E00BF13F9 /* NoteMaking.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B5DB3EC220BFC96E00BF13F9 /* NoteMaking.xcdatamodeld */; };
 		B5DB3EC620BFC96F00BF13F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5DB3EC520BFC96F00BF13F9 /* Assets.xcassets */; };
 		B5DB3EC920BFC96F00BF13F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5DB3EC720BFC96F00BF13F9 /* LaunchScreen.storyboard */; };
+		B5DB3ED420BFE5C900BF13F9 /* notesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DB3ED320BFE5C900BF13F9 /* notesCell.swift */; };
+		B5DB3ED620C01F5C00BF13F9 /* NotesDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DB3ED520C01F5C00BF13F9 /* NotesDetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B554313A20C1595D0002A805 /* Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
+		B5A4032A20C12B5500AF3DB1 /* touchInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = touchInterface.swift; sourceTree = "<group>"; };
+		B5AD7DAB20C04BC2006A181A /* changeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = changeView.swift; sourceTree = "<group>"; };
 		B5DB3EB820BFC96D00BF13F9 /* NoteMaking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteMaking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5DB3EBB20BFC96D00BF13F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B5DB3EBD20BFC96E00BF13F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5DB3EBD20BFC96E00BF13F9 /* NoteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteVC.swift; sourceTree = "<group>"; };
 		B5DB3EC020BFC96E00BF13F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5DB3EC320BFC96E00BF13F9 /* NoteMaking.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NoteMaking.xcdatamodel; sourceTree = "<group>"; };
 		B5DB3EC520BFC96F00BF13F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5DB3EC820BFC96F00BF13F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5DB3ECA20BFC96F00BF13F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5DB3ED320BFE5C900BF13F9 /* notesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notesCell.swift; sourceTree = "<group>"; };
+		B5DB3ED520C01F5C00BF13F9 /* NotesDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesDetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +66,10 @@
 		B5DB3EBA20BFC96D00BF13F9 /* NoteMaking */ = {
 			isa = PBXGroup;
 			children = (
+				B5DB3ED220BFE59B00BF13F9 /* Controller */,
+				B5DB3ED120BFE59400BF13F9 /* View */,
+				B5DB3ED020BFE58500BF13F9 /* Model */,
 				B5DB3EBB20BFC96D00BF13F9 /* AppDelegate.swift */,
-				B5DB3EBD20BFC96E00BF13F9 /* ViewController.swift */,
 				B5DB3EBF20BFC96E00BF13F9 /* Main.storyboard */,
 				B5DB3EC520BFC96F00BF13F9 /* Assets.xcassets */,
 				B5DB3EC720BFC96F00BF13F9 /* LaunchScreen.storyboard */,
@@ -65,6 +77,33 @@
 				B5DB3EC220BFC96E00BF13F9 /* NoteMaking.xcdatamodeld */,
 			);
 			path = NoteMaking;
+			sourceTree = "<group>";
+		};
+		B5DB3ED020BFE58500BF13F9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B554313A20C1595D0002A805 /* Notes.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B5DB3ED120BFE59400BF13F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B5AD7DAB20C04BC2006A181A /* changeView.swift */,
+				B5DB3ED320BFE5C900BF13F9 /* notesCell.swift */,
+				B5A4032A20C12B5500AF3DB1 /* touchInterface.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B5DB3ED220BFE59B00BF13F9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B5DB3EBD20BFC96E00BF13F9 /* NoteVC.swift */,
+				B5DB3ED520C01F5C00BF13F9 /* NotesDetailsVC.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +177,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5AD7DAC20C04BC2006A181A /* changeView.swift in Sources */,
 				B5DB3EC420BFC96E00BF13F9 /* NoteMaking.xcdatamodeld in Sources */,
-				B5DB3EBE20BFC96E00BF13F9 /* ViewController.swift in Sources */,
+				B5DB3EBE20BFC96E00BF13F9 /* NoteVC.swift in Sources */,
 				B5DB3EBC20BFC96D00BF13F9 /* AppDelegate.swift in Sources */,
+				B5A4032B20C12B5500AF3DB1 /* touchInterface.swift in Sources */,
+				B5DB3ED420BFE5C900BF13F9 /* notesCell.swift in Sources */,
+				B5DB3ED620C01F5C00BF13F9 /* NotesDetailsVC.swift in Sources */,
+				B554313B20C1595D0002A805 /* Notes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +329,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W874KA3X32;
 				INFOPLIST_FILE = NoteMaking/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +347,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W874KA3X32;
 				INFOPLIST_FILE = NoteMaking/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
